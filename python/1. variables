@@ -1,0 +1,23 @@
+first_name = "Bro"             
+last_name = "Code"             
+full_name = first_name + " " + last_name
+print("hello " + full_name)    
+
+age = 21 //int type
+age += 1
+print("Your name is : "+str(age))
+//print(type(age))
+
+height =250.5 //floating point number
+print("Your height is: "+str(height)+"cm")
+//print(type(height)) //float->str
+
+human = False   //boolen value:about true and false
+//print(type(human))//bool
+print("Are you a human : "+str(human))
+
+
+>hello Bro Code
+Your name is : 22
+Your height is: 250.5cm
+Are you a human : True
