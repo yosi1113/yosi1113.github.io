@@ -1,0 +1,12 @@
+name = "bro"
+
+print(len(name)) //length
+print(name.find("o")) //find character
+print(name.capitalize())
+print(name.upper()) //capitalize
+pirnt(name.lower()) //lower case
+print(name.isdigit()) //check numbers
+print(name.isalpha()) //check alphabet
+print(name.count("o")) //count number of the alphabet
+print(name.replace("o","a")) //change
+print(name*3) 
