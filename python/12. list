@@ -1,0 +1,22 @@
+food = ["pizza", "hamberger", "hotdog","spaghetti", "pudding"]
+
+print(food[0])
+
+for x in food:
+   print(x)
+
+food.append("ice cream")
+food.remove("hotdog")
+food.pop() //remove last element
+food.insert(0, "cake")
+food.sort() //list alphabetically
+food.clear() //remove list
+
+2d list == list of lists
+drink = ["coffee","soda","tea"]
+dinner = ["pizza","hamburger","hotdog"]
+desert = ["cake","ice cream"]
+
+food [drink, dinner, desert]
+
+print(food[0][0]) //fkrst of first list
