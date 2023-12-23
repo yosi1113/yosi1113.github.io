@@ -1,0 +1,16 @@
+set-unordered&unindexed, no duplicate values-compare
+
+utensils = {"fork","spoon","knife"}
+dishes = {"bowl","plate","cup","knife"}
+
+utensils.add("napkin"}
+utnesils.remove("fork")
+utensils.clear()
+utensils.update(dishes)
+dinner_table = utensils.union(dishes)
+
+for x in utensils:
+   print(x)
+
+print(utensils.difference(dishes))
+print(utensils.intersection(dishes))
