@@ -1,0 +1,12 @@
+dictionary = changable, unordered, key:value
+capitals = {'USA':Washington DC', 'India':'New Deli', 'China':'Beijing', 'Russia':'Moscow' }
+
+print(capitals['Russia'])
+print(capitals.keys())
+print(capitals.value())
+print(capitals.items()) //entire dictionary
+
+for key, value in capitals.items():
+    print(key, value)
+capitals.update('Germany':'Berlin'}
+capitals.pop('China') //china value delete
