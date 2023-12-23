@@ -1,0 +1,12 @@
+student = ("Bro",21,"male")
+
+print(student.count("Bro"))
+print(student.index("male")) //위치
+
+for x in student:
+   print(x)
+
+if "Bro" in student:
+   print("Bro is here!")
+
+list 랑 차이점: ordered and unchangable
