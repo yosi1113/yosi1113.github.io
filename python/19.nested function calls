@@ -1,0 +1,9 @@
+num = input("Eter a whole positive number:")
+num = float(num)
+num = abs(num)
+num = round(num)
+print(num)
+
+==
+
+print(roound(abs(float(input("Enter a whole positive number:")))))
