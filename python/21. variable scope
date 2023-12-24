@@ -1,0 +1,6 @@
+def display_name()
+   name = "Code"
+   print(name)
+display_name
+
+print(name) //name value exist in only inside the function
