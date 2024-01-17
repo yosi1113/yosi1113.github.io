@@ -1,22 +1,29 @@
-<a href="https://www.amazon.com/" target="_blank">
-    Back to Amazon
-</a>
-
-<p>
-    Nike Black Running Shoes
-</p>
-
-<p>
-    $39 - in stock.
-</p>
-
-<p>
-    Free dilivery tomorrow.
-</p>
-
-<button>
-    Add to Cart
-</button>
-<button>
-    Buy now
-</button>
+<style>
+    .Nike{
+        font-weight: bold;
+        font-size:30px;
+    }
+    .stock{
+        color:rgb(0,118,0)
+    }
+    .cart{
+        background-color:rgb(255,216,20);
+        width: 105px;
+        height: 36px;
+        border:none;
+        border-radius:18px;
+        
+    }
+    .buy{
+        background-color:rgb(255,164,28);
+        width: 105px;
+        height: 36px;
+        border:none;
+        border-radius:18px;}
+</style>
+<a href="https://www.amazon.com/" target="_blank">Back to Amazon</a>
+<p class="Nike">Nike Black Running Shoes</p>
+<p class="stock">$39 - in stock.</p>
+<p>Free to dilivery tomorrow</p>
+<button class="cart">Add to Cart</button>
+<button class="buy">Buy now</button>
