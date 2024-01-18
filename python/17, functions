@@ -1,6 +1,0 @@
-def hello(first_name, last_name,age):
-   print("hello!"+name)
-   print("You are"+age+"years old")
-   print("Have a nice day!")
-
-hello("Bro", "code",21)

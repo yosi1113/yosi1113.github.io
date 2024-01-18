@@ -1,8 +1,0 @@
-name = "bro code"
-
-if(name[0].islower():
-   name = name.capitalize()
-first name = name[:3].upper()
-last name = name[4:].lower()
-last character = namep[-2]
-print(name)

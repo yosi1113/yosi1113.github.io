@@ -1,4 +1,0 @@
-def hello(first,middle,last):
-    print("Hello"+fist+""+middle""+last)
-
-hello(last="code",middle="dude",first="Bro")
